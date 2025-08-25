@@ -13,13 +13,25 @@
       line-height: 1.6;
     }
 
-   header {
+    header {
     background-color: #004080;
     color: white;
-    padding: 40px 20px;
+    padding: 60px 20px; /* Aumentamos el alto */
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
+  
+  .header-content h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .header-content p {
+    margin: 10px 0 0;
+    font-size: 1.1em;
+    opacity: 0.9;
+  }
+
 
 
     main {
@@ -60,10 +72,13 @@
 </head>
 <body>
 
-  <header>
-    <h1 style="margin: 0; font-size: 2em;">Aviso de Privacidad</h1>
-    <p style="margin: 5px 0 0;">Iglesia de Dios Israelita El Elohe Israel</p>
+   <header>
+    <div class="header-content">
+      <h1>Aviso de Privacidad</h1>
+      <p>Iglesia de Dios Israelita El Elohe Israel</p>
+    </div>
   </header>
+
 
 
   <main>
